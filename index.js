@@ -1,11 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import BalayanCoSite from './App';
-
+function App(){return (<div style={{padding:'40px'}}>Balayan & Co — starter</div>);}
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <BalayanCoSite />
-  </React.StrictMode>
-);
+root.render(<React.StrictMode><App /></React.StrictMode>);
